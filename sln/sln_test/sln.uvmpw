@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectWorkspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_mpw.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <WorkspaceName>WorkSpace</WorkspaceName>
+
+  <project>
+    <PathAndName>.\lib\lib.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\arch\arch.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\bootldr\bootldr.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\kernel\kernel.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\app_test\app_test.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\usr\usr.uvprojx</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
+  </project>
+
+</ProjectWorkspace>
