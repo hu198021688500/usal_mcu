@@ -287,7 +287,7 @@ Bool TDrvCanOpen(TDrvCan *self, TDrvCanBaudRate baud_index)
         CAN_DeInit(base);
          
         CAN_InitStructure.CAN_TTCM = DISABLE;			/* 禁止时间触发模式（不生成时间戳), T  */
-        CAN_InitStructure.CAN_ABOM = DISABLE;			/* 禁止自动总线关闭管理 */
+        CAN_InitStructure.CAN_ABOM = ENABLE;			/* 启用自动总线关闭管理 */
         CAN_InitStructure.CAN_AWUM = DISABLE;			/* 禁止自动唤醒模式 */
         CAN_InitStructure.CAN_NART = DISABLE;			/* 禁止仲裁丢失或出错后的自动重传功能 */
         CAN_InitStructure.CAN_RFLM = DISABLE;			/* 禁止接收FIFO加锁模式 */
